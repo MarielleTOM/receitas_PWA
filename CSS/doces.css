@@ -70,3 +70,8 @@ h1 {
     list-style-type: disc;
     margin-bottom: 5px;
 }
+
+img{
+    width: 250px;
+    height: 250px; 
+}
