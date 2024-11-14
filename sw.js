@@ -1,5 +1,8 @@
-let cacheName = "my-fist-pwa";
-let filesToCache = ['/', 'index.html','/CSS/style.css', '/js/main.js'];
+let cacheName = "mypwa";
+let filesToCache = ['/', 'index.html','/CSS/style.css', '/js/main.js', "/carne", '/doces', '/massas','/CSS/carne.css', '/CSS/doces.css', "/CSS/massas.css",
+    '/images/bifePeixe.jpeg', '/images/carolina.webp', '/images/espagueteAlFormaggio.png', '/images/frango-assado.jpg', '/images/penneSalmão.jpeg',
+     '/images/picanhaComPureDeBatata.jpg', '/images/Sfogliatella.webp', '/images/spaghettiAllaPuttanesca.jpg', '/images/tiramisuItaliano.webp'
+];
 
 self.addEventListener("install", (e)=> {
     e.waitUntil(
